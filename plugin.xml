@@ -27,12 +27,11 @@
     <description>Cordova Js Injection</description>
     <license>Apache 2.0</license>
     <keywords>cordova,jsinjection</keywords>
-    <repo>https://github.com/amirhmoradi/cordova-plugin-jsinjection.git</repo>
-    <issue>https://github.com/amirhmoradi/cordova-plugin-jsinjection/issues</issue>
+    <repo>https://github.com/TheJKM/cordova-plugin-jsinjection.git</repo>
+    <issue>https://github.com/TheJKM/cordova-plugin-jsinjection/issues</issue>
 
     <dependency id="cordova-plugin-whitelist" version=">=1.0.1" />
     <dependency id="cordova-plugin-network-information" version=">=1.0.0" />
-    <dependency id="cordova-plugin-wkwebview-engine" version=">=1.0.0" />
 
     <js-module src="www/jsinjection.js" name="jsinjection">
         <clobbers target="jsinjection" />
@@ -41,7 +40,7 @@
     <asset src="www/jsinjection-bridge.js" target="jsinjection-bridge.js" />
 
     <engines>
-        <engine name="cordova-ios" version=">4.0.0" />
+        <engine name="cordova-ios" version=">6.0.0" />
         <engine name="cordova-android" version=">7.0.0" />
     </engines>
 
